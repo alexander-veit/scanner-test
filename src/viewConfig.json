@@ -54,7 +54,7 @@
               "width": 843
             },
             {
-              "chromInfoPath": "//s3.amazonaws.com/pkerp/data/hg19/chromSizes.tsv",
+              "chromInfoPath": "https://s3.amazonaws.com/pkerp/data/hg19/chromSizes.tsv",
               "type": "horizontal-chromosome-labels",
               "height": 30,
               "uid": "X4e_1DKiQHmyghDa6lLMVA",
@@ -70,23 +70,6 @@
               "width": 843
             },
             {
-              "uid": "scanner-text-track",
-              "type": "text",
-              "width": 568,
-              "height": 25,
-              "server": "https://cgap-higlass.com/api/v1",
-              "options": {
-                "text": "No Scanner output file specified!",
-                "align": "left",
-                "offsetY": 5,
-                "fontSize": 12,
-                "textColor": "#333333",
-                "fontFamily": "Arial",
-                "fontWeight": "bold",
-                "backgroundColor": "#efefefef"
-              }
-            },
-            {
               "type": "scannerResult",
               "options": {
                 "show_total_cn": false,
@@ -96,12 +79,12 @@
                 "segmentHeight": 10,
                 "yAxisLabel": {
                   "visible": true,
-                  "text": "BAF"
+                  "text": "Phased B-allele frequency"
                 },
-                "chromSizesUrl": "https://aveit.s3.amazonaws.com/higlass/data/sequence/hg38.mod.chrom.sizes",
+                "chromSizesUrl": "https://s3.amazonaws.com/pkerp/data/hg19/chromSizes.tsv",
                 "data":[]
               },
-              "height": 120,
+              "height": 170,
               "uid": "scanner-result-track-1",
               "width": 450
             },
@@ -116,12 +99,12 @@
                 "segmentHeight": 10,
                 "yAxisLabel": {
                   "visible": true,
-                  "text": "RDR"
+                  "text": "Total copy number"
                 },
-                "chromSizesUrl": "https://aveit.s3.amazonaws.com/higlass/data/sequence/hg38.mod.chrom.sizes",
+                "chromSizesUrl": "https://s3.amazonaws.com/pkerp/data/hg19/chromSizes.tsv",
                 "data":[]
               },
-              "height": 120,
+              "height": 170,
               "uid": "scanner-result-track-2",
               "width": 450
             }

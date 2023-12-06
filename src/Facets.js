@@ -126,7 +126,7 @@ export class Facets extends React.PureComponent {
 
     return (
       <React.Fragment>
-        <div className="row">
+        <div className="row z0">
           <div className="col">
             <div className="d-block bg-light px-2 mb-2">
               <small>NAVIGATION</small>

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@zip.js/zip.js": "^2.7.32",
     "assert": "^2.0.0",
     "axios": "^1.4.0",
     "bootstrap": "^4.6.1",
@@ -13,7 +14,6 @@
     "generic-filehandle": "3.0.0",
     "higlass": "1.12.4",
     "higlass-text": "^0.1.6",
-    "smaht-higlass-misc": "0.1.0-beta.10",
     "pixi.js": "^5.2.4",
     "process": "^0.11.10",
     "react": "^17.0.2",
@@ -24,6 +24,7 @@
     "react-scripts": "5.0.1",
     "react-select": "^5.7.4",
     "react-tooltip": "4.2.10",
+    "smaht-higlass-misc": "0.2.2",
     "stream-browserify": "^3.0.0",
     "underscore": "^1.10.2",
     "util": "^0.12.5",

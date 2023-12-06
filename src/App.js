@@ -17,13 +17,17 @@ function App() {
         </div>
       </div> */}
 
+      <div id="overlay">
+        <div id="overlay-text"><i className="fas fa fa-spin fa-spinner mr-1"></i>Loading data</div>
+      </div>
+
       <div className="container mt-5">
         <h2 id="variant-view" className="text-center">
           Scanner output visualization
         </h2>
         <CnvTable />
 
-        <div className="h3" id="sec:visualization">
+        <div className="h3 mt-5" id="sec:visualization">
           Interactive visualization
         </div>
         <div className="row mt-4">
@@ -38,9 +42,12 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="py-5">
-        </div>
-        <div className="py-5">
+        <div className="py-5"></div>
+      </div>
+      <div className="container-fluid bg-light mt-5 py-4 text-center">
+        <div className="mb-1">
+          For support or questions, please open an issue on our{" "}
+          <a href="https://github.com/parklab/scanner">GitHub repository</a>.
         </div>
       </div>
     </div>

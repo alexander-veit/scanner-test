@@ -9,7 +9,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "src/index.html", // to import index.html file inside index.js
-      favicon: "src/favicon.png"
+      favicon: "src/favicon.ico"
     })
   ],
   devServer: {
